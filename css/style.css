@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   font-weight: 300;
-  color: #29404D;
+  color: #281C54;
   color: #707070;
   line-height: 1.7;
   overflow-x: hidden;
@@ -497,7 +497,7 @@ a, a:hover {
 }
 
 .suite-wrap.overlap-image-1 .suite-contents .suite-title {
-  color: #29404D;
+  color: #281C54;
   font-size: 4rem;
   margin-bottom: 30px;
   line-height: 0;
@@ -721,15 +721,15 @@ a, a:hover {
 }
 
 .readmore.primary {
-  color: #29404D;
+  color: #281C54;
 }
 
 .readmore.primary:before {
-  background: #29404D;
+  background: #281C54;
 }
 
 .readmore.primary:hover {
-  color: #29404D;
+  color: #281C54;
 }
 
 .readmore.reverse:before {
@@ -781,14 +781,14 @@ a, a:hover {
 
 .icons-top.icons-dark li a {
   color: #fff;
-  background: #29404D;
+  background: #281C54;
   width: 40px;
   height: 40px;
   opacity: 1;
 }
 
 .icons-top.icons-dark li a:hover {
-  background: #29404D;
+  background: #281C54;
 }
 
 /* Site Nav */
@@ -891,7 +891,7 @@ a, a:hover {
   content: "";
   position: absolute;
   height: 1px;
-  background: #ACBAAC;
+  background: #F39109;
   bottom: 0;
   width: 0%;
   -webkit-transition: .2s width ease-in-out;
@@ -1048,7 +1048,7 @@ a, a:hover {
 }
 
 .sticky-wrapper .untree_co--site-nav.dark .site-nav-ul > li > a:before {
-  background: #29404D;
+  background: #281C54;
 }
 
 .sticky-wrapper .untree_co--site-nav.dark .burger:before, .sticky-wrapper .untree_co--site-nav.dark .burger span, .sticky-wrapper .untree_co--site-nav.dark .burger:after {
@@ -1077,17 +1077,17 @@ a, a:hover {
 }
 
 .sticky-wrapper.is-sticky .untree_co--site-nav .site-nav-ul > li > a:before {
-  background: #29404D;
+  background: #281C54;
 }
 
 .sticky-wrapper.is-sticky .icons-top li a {
-  background: #29404D;
+  background: #281C54;
   color: #fff;
   opacity: 1;
 }
 
 .sticky-wrapper.is-sticky .icons-top li a:hover {
-  background: #29404D;
+  background: #281C54;
   color: #fff;
 }
 
@@ -1183,7 +1183,7 @@ a, a:hover {
 }
 
 .untree_co--site-mobile-menu ul a:hover, .untree_co--site-mobile-menu ul li a:hover {
-  color: #29404D;
+  color: #281C54;
 }
 
 .untree_co--site-mobile-menu ul > li > ul > li > a {
@@ -1453,7 +1453,7 @@ span[data-jarallax-element] {
 
 .cta h3 a:before {
   content: "";
-  background: #ACBAAC;
+  background: #F39109;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1478,7 +1478,7 @@ span[data-jarallax-element] {
 .testimony-29101 .text {
   width: 60%;
   padding: 7rem 4rem;
-  background: #29404D;
+  background: #281C54;
 }
 
 .testimony-29101 .text blockquote {
@@ -1577,7 +1577,7 @@ span[data-jarallax-element] {
 
 .slide-one-item .owl-dots .owl-dot.active > span {
   width: 15px;
-  background: #29404D;
+  background: #281C54;
 }
 
 .thumbnail {
