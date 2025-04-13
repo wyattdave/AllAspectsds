@@ -63,9 +63,10 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="thegames.html">The Games</a></li>
               <li><a href="thedecor.html">The Decor</a></li>
-              <li><a href="finishing.html">Finishing Touches</a></li>
+              <li><a href="personal.html">Personal Touches</a></li>
               <li ><a href="about.html">About Us</a></li>
               <li class="active"><a href="contact.html">Contact</a></li>
+              <li><a href="t&C.html">T&C's</a></li>
             </ul>
           </div>
           <div class="icons-wrap text-md-right">
@@ -164,7 +165,7 @@
     
           <div class="row mt-5 pt-5 align-items-center">
             <div class="col-md-12 text-md-left">
-              <a href="t&C.html">Click here for full Terms and Conditions</a>
+              <a href="t&C.html">Full Terms and Conditions can be found in the T&C's</a>
               <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
               <p>
                 Copyright &copy;
@@ -215,11 +216,32 @@
       event.preventDefault();
       emailjs.sendForm('service_31toi4k', 'template_eyp0pad', this)
         .then(function () {
-          alert('Message sent successfully!');
+          // Show the success modal
+          $('#successModal').modal('show');
         }, function (error) {
           alert('Failed to send message. Please try again later.');
         });
     });
   </script>
+
+  <!-- Success Modal -->
+  <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="successModalLabel">Message Sent</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Your message has been sent successfully!
+        </div>
+        <div class="modal-footer">
+          <a href="index.html">Continue</a>
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
